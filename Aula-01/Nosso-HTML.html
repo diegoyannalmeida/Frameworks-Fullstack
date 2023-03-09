@@ -1,0 +1,46 @@
+<div>
+    <html>
+
+    <head>
+        <title>--Formulário Contato--</title>
+        <!-- Define a codificação utilizada para a exibição dos caracteres -->
+        <meta charset="utf-8" />
+        
+        <!-- Adiciona uma folha de estilo CSS para estilizar a página -->
+        <link href="ContatoEstilo.css" rel="stylesheet" media="all" />
+        
+        <!-- Adiciona um script JavaScript para funções adicionais -->
+        <script src="JavaScript.js"></script>
+        
+    </head>
+
+    <body>
+        <form name="meu_form">
+                <!-- Cria um título para o formulário -->
+                <h1>Entre em contato</h1>
+                
+                <!-- Cria um input de texto para entrada do nome -->
+                <input type="text" id="nomeid" placeholder="Tiago Vale" required="required" name="nome" /> </b>
+                <label for="nome">Nome</label>
+                
+                <!-- Cria um input de telefone para entrada do telefone, caso possua -->
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                <label for="fone">Fone</label>
+                
+                <!-- Cria um input de email para entrada do email -->
+                <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                <label for="email">Email</label>
+                
+                <!-- Cria uma área de texto para escrever mensagens/opniões -->
+                <textarea placeholder="Deixe sua opnião"></textarea>
+                
+                <!-- Cria um botão de submissão do formulário -->
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                
+                <!-- Cria um segundo botão para troca de informações do formulário -->
+                <input type="submit" class="trocar" onclick="Trocar();" value="Trocar" />
+            </form>            
+    </body>
+
+    </html>
+</div>

@@ -1,0 +1,25 @@
+
+
+<html>
+    <head>
+        <title>Meu primeiro site :D</title>
+    </head>
+    <body>
+        Aprovado ou Reprovado
+
+        <div>
+            <form method="get">
+                Primeira Nota: <input type="text" name="nota1"><br>
+                Segunda Nota: <input type="text" name="nota2"><br>
+                <input type="submit" value="Enviar">
+            </form>
+
+            {% if resultado %}
+            <div>{{resultado}} com média {{media}}!!!</div>
+            {% endif %}
+         
+        </div>
+         
+     </body>
+         
+</html> 
